@@ -1,0 +1,155 @@
+
+        :root {
+            --primary-color: #25D366;
+            --secondary-color: #128C7E;
+            --dark-color: #075E54;
+            --light-color: #DCF8C6;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            border: none;
+            overflow: hidden;
+        }
+        
+        .card-header {
+            background-color: var(--primary-color);
+            color: white;
+            border-bottom: none;
+            padding: 1.5rem;
+        }
+        
+        .form-control {
+            border-radius: 10px;
+            padding: 12px;
+            border: 1px solid #ddd;
+            transition: all 0.3s;
+        }
+        
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.25rem rgba(37, 211, 102, 0.25);
+        }
+        
+        .btn-whatsapp {
+            background-color: var(--primary-color);
+            border: none;
+            border-radius: 10px;
+            padding: 12px 24px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        .btn-whatsapp:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .btn-whatsapp:active {
+            transform: translateY(0);
+        }
+        
+        .form-label {
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+        
+        .form-floating > .form-control {
+            padding-top: 1.625rem;
+            padding-bottom: 0.625rem;
+        }
+        
+        .whatsapp-icon {
+            margin-right: 8px;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .animate-form {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+        
+        @media (max-width: 576px) {
+            .card-header {
+                padding: 1rem;
+            }
+            
+            .card-body {
+                padding: 1rem;
+            }
+        }
+   
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.aziz {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.aziz h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+    color: #333;
+    margin: 0;
+    font-weight: 600;
+}
+
+.aziz img {
+    height: 60px;
+    width: 120px; 
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+.aziz img:hover {
+    transform: rotate(5deg); 
+}
+
+@media (max-width: 768px) {
+    .aziz {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+        
