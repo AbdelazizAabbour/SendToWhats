@@ -8,7 +8,7 @@ document.getElementById("whatsapp-form").addEventListener("submit", function(e) 
     var address = document.getElementById("address").value;
     
     
-    var number = "+212777996998";
+    var number = "+212670955826";
     
    
     var message = `Bonjour !\n\nNom : ${name}\nTéléphone : ${phone}\nProduit : ${product}\nAdresse : ${address}\n\nMerci pour votre commande.`;
